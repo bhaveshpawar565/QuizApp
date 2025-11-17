@@ -4,7 +4,7 @@ FROM tomcat:10.1-jdk17
 RUN rm -rf /usr/local/tomcat/webapps/*
 
 # Add your WAR file
-COPY aiquizhost.war /usr/local/tomcat/webapps/ROOT.war
+COPY AiquizApp - Copy.war /usr/local/tomcat/webapps/ROOT.war
 
 EXPOSE 8080
 
